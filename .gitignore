@@ -1,0 +1,26 @@
+# Ignore raw datasets
+*.csv
+
+# Keep the compressed dataset
+!dataset.zip
+
+# Ignore model artifacts
+artifacts/
+*.pkl
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore env and egg info
+.venv/
+env/
+*.egg-info/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
