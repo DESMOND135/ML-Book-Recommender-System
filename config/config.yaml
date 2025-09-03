@@ -26,3 +26,6 @@ model_trainer_config:
   trained_model_dir: trained_models
   trained_model_name: model.pkl
   base_accuracy: 0.7
+
+recommendation_config:
+  poster_api_url: "https://dummyapi.com/poster"   # placeholder, not currently used
