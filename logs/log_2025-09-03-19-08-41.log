@@ -1,0 +1,35 @@
+[2025-09-03 19:08:41,540] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-03 19:08:42,763] root - INFO - ==================== Data Ingestion log started. ====================
+[2025-09-03 19:08:42,764] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-09-03 19:08:42,764] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-09-03 19:08:42,765] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-09-03 19:08:42,765] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-09-03 19:08:42,765] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_models', trained_model_name='model.pkl')
+[2025-09-03 19:08:42,766] root - INFO - Downloading data from https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip into file artifacts\dataset\raw_data\dataset.zip
+[2025-09-03 19:08:45,480] root - INFO - Downloaded data from https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip into file artifacts\dataset\raw_data\dataset.zip
+[2025-09-03 19:08:45,960] root - INFO - Extracted zip file: artifacts\dataset\raw_data\dataset.zip into dir: artifacts\dataset\ingested_data
+[2025-09-03 19:08:45,960] root - INFO - ==================== Data Ingestion log completed. ====================
+
+
+[2025-09-03 19:08:45,960] root - INFO - ====================Data Validation log started.====================
+[2025-09-03 19:08:48,235] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2025-09-03 19:08:48,235] root - INFO -  Shape of books data file: (271360, 8)
+[2025-09-03 19:08:49,415] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2025-09-03 19:08:49,704] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2025-09-03 19:08:49,724] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2025-09-03 19:08:49,785] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2025-09-03 19:08:49,786] root - INFO - ====================Data Transformation log started.==================== 
+[2025-09-03 19:08:49,969] root - INFO -  Shape of book pivot table: (742, 888)
+[2025-09-03 19:08:49,983] root - INFO - Saved pivot table data to artifacts\dataset\transformed_data
+[2025-09-03 19:08:49,985] root - INFO - Saved book_names serialization object to artifacts\serialized_objects
+[2025-09-03 19:08:49,989] root - INFO - Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-09-03 19:08:49,990] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2025-09-03 19:08:49,991] root - INFO - ====================Model Trainer log started.==================== 
+[2025-09-03 19:08:50,003] root - INFO - Saving final model to artifacts\trained_models\model.pkl
+[2025-09-03 19:08:50,003] root - INFO - ====================Model Trainer log completed.==================== 
+
+

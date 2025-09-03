@@ -1,0 +1,14 @@
+[2025-09-03 19:02:17,922] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-03 19:02:19,065] root - INFO - ==================== Data Ingestion log started. ====================
+[2025-09-03 19:02:19,065] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-09-03 19:02:19,066] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-09-03 19:02:19,067] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-09-03 19:02:19,067] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-09-03 19:02:19,067] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_models', trained_model_name='model.pkl')
+[2025-09-03 19:02:19,067] root - INFO - Downloading data from https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip into file artifacts\dataset\raw_data\dataset.zip
+[2025-09-03 19:02:22,195] root - INFO - Downloaded data from https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip into file artifacts\dataset\raw_data\dataset.zip
+[2025-09-03 19:02:22,703] root - INFO - Extracted zip file: artifacts\dataset\raw_data\dataset.zip into dir: artifacts\dataset\ingested_data
+[2025-09-03 19:02:22,703] root - INFO - ==================== Data Ingestion log completed. ====================
+
+
+[2025-09-03 19:02:22,703] root - INFO - ====================Data Validation log started.==================== 

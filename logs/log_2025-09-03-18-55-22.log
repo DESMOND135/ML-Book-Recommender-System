@@ -1,0 +1,3 @@
+[2025-09-03 18:55:22,415] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-03 18:55:23,377] root - INFO - ==================== Data Ingestion log started. ====================
+[2025-09-03 18:55:23,378] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='C:/Users/Administrator/Downloads/RECOMMENDER_SYSTEMS_PROJECT/dataset.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')

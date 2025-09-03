@@ -1,0 +1,6 @@
+[2025-09-03 19:00:07,530] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-03 19:00:08,562] root - INFO - ==================== Data Ingestion log started. ====================
+[2025-09-03 19:00:08,562] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://raw.githubusercontent.com/DESMOND135/ML-Book-Recommender-System/main/dataset.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-09-03 19:00:08,562] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-09-03 19:00:08,565] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-09-03 19:00:08,565] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
